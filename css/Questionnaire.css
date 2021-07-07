@@ -1,0 +1,263 @@
+body {
+    display: block;
+    margin: 8px;
+}
+body.default {
+    margin: 0;
+    background-color: rgb(164, 170, 221);
+    background-size:100% 100%; 
+    font-size: 12px;
+    line-height: 120%;
+    color: #1d2d45;
+    height: 900px;
+}
+.lianj{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: black; */
+    font-weight:bold; 
+    float: right;
+    color:rgb(207, 70, 70); 
+    line-height: 30px;
+    letter-spacing: 5px;
+    
+    margin: 20px 35px 0px 0px;
+   
+    line-height: 25px;
+    
+}
+.outerframe{
+    margin-left:60px;
+    padding: 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table.innerframe {
+    width: 75%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin: 20px auto 40px auto;
+    width: 75%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+#questionaire{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: block;
+}
+.welcome{
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 1px;
+    font-family: "Microsoft Yahei";
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td.survey-description {
+    border-bottom: 2px solid #e33b3d;
+    color: #666;
+    text-align: center;
+    height: 60px;
+    overflow: hidden;
+   
+}
+td.survey-description h1 {
+    text-align: left;
+    margin-left: 20px;
+    /* line-height: 9px; */
+    font-size: 22px;
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+    padding-top: 10px;
+}
+.biaot{
+    color: #e33b3d;
+    text-align: left;
+    margin-right: 180px;
+    /* line-height: 9px; */
+    font-size: 40px;
+    font-family: "Microsoft Yahei";
+    font-style: italic;
+    font-weight:bold;
+    /* padding-top: 10px; */
+}
+p.surveydescription {
+    height: 0;
+}
+
+td.survey-welcome {
+    text-align: left;
+    padding: 20px 65px 15px 35px;
+}
+span.surveywelcome {
+    line-height: 25px;
+    text-align: left;
+}
+p {
+    font-size: 16px;
+    font-family:KaiTi;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+table.group {
+    width: 100%;
+    margin: 0 0 2px 30px;
+    border: 0 none;
+    border-collapse: collapse;
+    /* background-color: #fff; */
+}
+
+td.questiontext {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    /* background-color: #EEF6FF; */
+    text-align: left;
+    padding: 6px 10px;
+}
+.asterisk {
+    color: red;
+    font-size: 9px;
+    font-family: verdana;
+    margin-right: 5px;
+}
+
+td.survey-question-help {
+    font-size: 10px;
+    /* background-color: #FFFDEE; */
+    padding-left: 1em;
+    line-height: 24px;
+    color: #999999;
+    text-align: left;
+}
+td.answer {
+    padding: 0 24px 5px 37px;
+    text-align: left;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 7px;
+    /* height: 90px; */
+}
+.answer li {
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 0.5em 0.5em;
+}
+.list-radio .answer li input {
+    vertical-align: top !important;
+    margin-top: 2px;
+}
+
+.hide {
+    font-weight: normal;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+strong {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.question-wrapper {
+    width: 100%; 
+    padding: 1px 0px 0px 30px; 
+} 
+.textarea {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    margin-left: 20px;
+}
+
+.navigator-table {
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+   
+    height: 33.3px;
+}
+.submit-buttons {
+    text-align: center;
+    width: 100%;
+    
+    border-top: 2px solid #e33b3d;
+    padding-top: 40px;
+   
+    overflow: hidden;
+}
+
+.submit {
+    padding: 0;
+    margin-right: 0.1em;
+    text-decoration: none !important;
+    border-radius: 6px;
+    border: 1px solid #aed0ea;
+    /* background: #d7ebf9 url(../img/2.png) 50% 50% repeat-x; */
+    font-weight: bold;
+    color: #0070a3;
+}
+
+.ui-button-text {
+    padding: 0.4em 1em;
+    display: block;
+    line-height: 1.4;
+}
+footer{
+    background-color: rgb(165, 167, 201);
+	height:60px;
+    text-align: center; 
+}
+#footer{
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    display: inline-block;
+    margin-top: 4px;
+    line-height: 2em;
+}

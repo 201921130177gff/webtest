@@ -1,0 +1,132 @@
+body{
+    font: 20px/1 "\u5b8b\u4f53",Tahoma,Geneva,sans-serif;
+    color: #333;
+    margin: 0;
+    font-family: "SimSun";
+    background: url(../img/6.jpg) no-repeat center center;
+    background-size:100% 100%;   
+}
+#header {
+    padding: 5px;
+    height: 80px;
+    
+}
+.inner {
+    width: 1000px;
+    margin: auto;
+}
+.lianj{
+    font-weight:bold;
+    float: right;
+    color:rgb(207, 70, 70);
+    line-height: 30px;
+    letter-spacing: 5px;
+    padding: 3px;
+    padding-left: 5px;
+    margin: 20px 35px 0px 0px;
+    background-color: #9ad5e4;
+    border: 1px dashed white; 
+    line-height: 25px;
+    border-radius:5px;
+}
+
+.head{
+    float: left;
+    font-size: 70px;
+    font-weight:bold;
+    color:rgb(207, 70, 70);
+    font-style:italic;
+    line-height: 70px;
+    letter-spacing: 5px;   
+    border: 1px dashed white;
+    background-color: #9ad5e4;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    margin-left: 300px;
+    border-radius:20px;
+}
+
+.clear {
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+#article{
+    position: relative;
+    padding-top: 20px;
+    height: 820px;
+    width: 1200px;
+    margin: auto;
+    /* background-color: turquoise; */
+}
+.container-1{
+    width: 700px;  
+    float: left;
+}
+
+.container-2{
+    width: 700px;  
+    float: right;
+}
+.neir{
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    float: left;
+    font-family: "Microsoft Yahei"; 
+    border: 1px dashed white;
+    border-radius:20px;
+    padding:5px 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: url(../img/7.gif) no-repeat;
+}
+
+
+.biaot{
+    font-size: 28px;
+    font-weight:bold;
+    color: tomato;
+    font-family: NSimSun;
+    /* border: 1px dashed rgb(155, 77, 77); */
+    border-radius:15px;
+    background-color: #9ad5e4;
+    margin-left: 50px;
+    line-height: 1.5em;
+    display: inline-block;
+    padding:0 5px ;
+}
+.neirong{
+    text-indent: 2em;
+    line-height: 1.5em;
+    display: inline-block;
+    padding:5px 10px ;
+}
+
+
+
+.container-4{
+    padding-top: 30px;
+    width: 700px;  
+    height: 150px;
+    float: right;
+}
+footer{
+    background-color: rgb(90, 94, 148); 
+	height:60px;
+    text-align:center;  
+}
+#footer{
+    font-size: 13px;
+    font-weight: normal;
+    color: #fff;
+    /* float: center; */
+    font-family: "Microsoft Yahei";
+    display: inline-block;
+    line-height: 1.5em;
+}
